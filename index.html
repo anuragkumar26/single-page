@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinIntention</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+    <nav class="nav navbar navbar-lg">
+        <div class="container-fluid">
+            <div class="nav-logo">
+                <img src="./src/assets/logo.png" alt="Logo">
+            </div>
+
+            <button class="toggleButton" type="menu" id="toggleNav">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <div class="navbar collapse collapse-lg" id="nav-menu">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Cryptocurrencies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Exchanges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Trades</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="searchIcon">
+                <img src="./src/assets/search.png" alt="search">
+            </span>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <div class="container-fluid">
+                <p class="title1">Today's Cryptocurrency Prices By Market Cap</p>
+                <p class="subTitle">The global cryptocurrency market cap today is <span class="greenText">$811.7B</span>, a <span class="redText">&darr;0.17%</span> decrease in the last 24 hours.</p>
+                
+                <div class="table_div">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th><span>Name</span></th>
+                                <th><span>Price</span></th>
+                                <th><span>24h Change </span></th>
+                                <th><span>Chart</span></th>
+                                <th><span>Marketcap</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/bitcoin-logo.png" class="tableIcon" alt="bitCoin">
+                                        <span>Bit Coin <small>BTC</small></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <span>$3625.24</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span class="greenText">+2.4%</span></div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/green-chart.png" alt="chart" class="chartImg">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span>$320,893,271,955</span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/ethereum-diamond-logo.png" class="tableIcon" alt="Ethereum">
+                                        <span>Ethereum <small>ETH</small></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <span>$1218.18</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span class="redText">-0.7%</span></div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/red-chart.png" alt="chart" class="chartImg">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span>$148,563,792,762</span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/Shiba_Inu_coin_logo.png" class="tableIcon" alt="ShibuInu">
+                                        <span>ShibuInu <small>Shibu</small></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <span>$0.001</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span class="greenText">+1.2%</span></div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/green-chart.png" alt="chart" class="chartImg">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span>$4,498,804,882</span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/bitcoin-logo.png" class="tableIcon" alt="bitCoin">
+                                        <span>Bit Coin <small>BTC</small></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <span>$3625.24</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span class="greenText">+2.4%</span></div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/green-chart.png" alt="chart" class="chartImg">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span>$320,893,271,955</span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/ethereum-diamond-logo.png" class="tableIcon" alt="Ethereum">
+                                        <span>Ethereum <small>ETH</small></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <span>$1218.18</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span class="redText">-0.7%</span></div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/red-chart.png" alt="chart" class="chartImg">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span>$148,563,792,762</span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/Shiba_Inu_coin_logo.png" class="tableIcon" alt="ShibuInu">
+                                        <span>ShibuInu <small>Shibu</small></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <span>$0.001</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span class="greenText">+1.2%</span></div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/green-chart.png" alt="chart" class="chartImg">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span>$4,498,804,882</span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/bitcoin-logo.png" class="tableIcon" alt="bitCoin">
+                                        <span>Bit Coin <small>BTC</small></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <span>$3625.24</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span class="greenText">+2.4%</span></div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/green-chart.png" alt="chart" class="chartImg">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span>$320,893,271,955</span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/ethereum-diamond-logo.png" class="tableIcon" alt="Ethereum">
+                                        <span>Ethereum <small>ETH</small></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <span>$1218.18</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span class="redText">-0.7%</span></div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/red-chart.png" alt="chart" class="chartImg">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span>$148,563,792,762</span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/Shiba_Inu_coin_logo.png" class="tableIcon" alt="ShibuInu">
+                                        <span>ShibuInu <small>Shibu</small></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <span>$0.001</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span class="greenText">+1.2%</span></div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <img src="./src/assets/green-chart.png" alt="chart" class="chartImg">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div><span>$4,498,804,882</span></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+    
+                <button class="viewAllBtn">View All</button>
+            </div>
+        </section>
+
+        <section class="feature_section">
+            <div class="container-fluid">
+                <div class="features_row">
+                    <div class="map_col first-col">
+                        <div class="map_digram_div"></div>
+                    </div>
+                    <div class="map_col second-col">
+                        <div class="features">
+                            <h1>We are the most trusted Cryptocurrency  Platform</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+    
+                            <div class="feature_item">
+                                <div class="img_div">
+                                    <img src="./src/assets/clarity.png" alt="Clarity" class="featureImg">
+                                </div>
+                                <div class="feature_content">
+                                    <p class="featureTitle">Clarity</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc vulputate</p>
+                                </div>
+                            </div>
+                            <div class="feature_item">
+                                <div class="img_div">
+                                    <img src="./src/assets/confidance.png" alt="Clarity" class="featureImg">
+                                </div>
+                                <div class="feature_content">
+                                    <p class="featureTitle">Confidence</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc vulputate</p>
+                                </div>
+                            </div>
+                            <div class="feature_item">
+                                <div class="img_div">
+                                    <img src="./src/assets/community.png" alt="Clarity" class="featureImg">
+                                </div>
+                                <div class="feature_content">
+                                    <p class="featureTitle">Community</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc vulputate</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>          
+        </section>
+
+        <section class="reason_section">
+            <div class="container-fluid">
+                <div class="reason_row" style="align-items: center;">
+                    <div class="reason_col">
+                        <div class="reasons">
+                            <h1>Reason to invest in 
+                                Cryptocurrency in 2022</h1>
+    
+                            <div class="reason_item">
+                                <div class="img_div">
+                                    <img src="./src/assets/check_icon.png" alt="check" class="check_img">
+                                </div>
+                                <div class="reason_content">
+                                    <p class="reasonTitle">Buying Bitcoin in legal</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                        Class aptent taciti sociosqu ad.</p>
+                                </div>
+                            </div>
+    
+                            <div class="reason_item">
+                                <div class="img_div">
+                                    <img src="./src/assets/check_icon.png" alt="check" class="check_img">
+                                </div>
+                                <div class="reason_content">
+                                    <p class="reasonTitle">High return potential </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                        Class aptent taciti sociosqu ad.</p>
+                                </div>
+                            </div>
+    
+                            <div class="reason_item">
+                                <div class="img_div">
+                                    <img src="./src/assets/check_icon.png" alt="check" class="check_img">
+                                </div>
+                                <div class="reason_content">
+                                    <p class="reasonTitle">Growing alternative assest class</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                        Class aptent taciti sociosqu ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reason_col">
+                        <div class="graph_div">
+                            <div class="graph_card">
+                                <p class="card-title">Your portfolio is <span class="greenText">up 2.13%</span></p>
+    
+                                <div class="portfolio-item">
+                                    <div class="portfolio_first_col">
+                                        <img src="./src/assets/bitcoin-logo.png" alt="bitcoin">
+                                        <p><span>Bit Coin</span><small>BTC</small></p>
+                                    </div>
+                                    <span class="status greenText">1.33%&uarr;</pan>
+                                </div>
+                                <div class="portfolio-item">
+                                    <div class="portfolio_first_col">
+                                        <img src="./src/assets/diamond-black-white.png" alt="bitcoin">
+                                        <p><span>Ethereum</span><small>ETH</small></p>
+                                    </div>
+                                    <span class="status greenText">1.33%&uarr;</pan>
+                                </div>
+                                <div class="portfolio-item">
+                                    <div class="portfolio_first_col">
+                                        <img src="./src/assets/litecoin-blockchain-cryptocurrency-logo-.png" alt="bitcoin">
+                                        <p><span>Litecoin</span><small>LTC</small></p>
+                                    </div>
+                                    <span class="status greenText">1.33%&uarr;</pan>
+                                </div>
+                                <div class="portfolio-item">
+                                    <div class="portfolio_first_col">
+                                        <img src="./src/assets/bitcoin-logo.png" alt="bitcoin">
+                                        <p><span>Bit Coin</span><small>BTC</small></p>
+                                    </div>
+                                    <span class="status greenText">1.33%&uarr;</pan>
+                                </div>
+                                <div class="portfolio-item">
+                                    <div class="portfolio_first_col">
+                                        <img src="./src/assets/diamond-black-white.png" alt="bitcoin">
+                                        <p><span>Ethereum</span><small>ETH</small></p>
+                                    </div>
+                                    <span class="status greenText">1.33%&uarr;</pan>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="footer_row">
+                <div class="footer_col">
+                    <div>
+                        <div class="footer-logo">
+                            <img src="./src/assets/logo.png" alt="">
+                        </div>
+                        <p>CoinIntention's mission is to make investing in cryptocurrencies easy and efficient. CoinIntention tracks various data of cryptocurrencies and thus offers its users an overview of all cryptocurrencies available on the market and their performance, market capitalization, trading volume, etc.</p>
+                    </div>
+                </div>
+                <div class="footer_col">
+                    <div class="company_section">
+                        <p class="menu-title">Company</p>
+
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#" class="footer-menu-link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">Terms of use</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">Community Rules</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">Disclaimer </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">Methodology</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_col">
+                    <div class="support_section">
+                        <p class="menu-title">Support </p>
+
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#" class="footer-menu-link">Requested Form</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">Contact Support</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">FAQ's</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">Glossary</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_col">
+                    <div class="socials_section">
+                        <p class="menu-title">Socials</p>
+
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="#" class="footer-menu-link">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">YouTube</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-menu-link">Telegram</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2021-2023 CoinIntention. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
